@@ -26,17 +26,17 @@ public class Main {
         System.out.println("---------------------------------\n(" + polynomial.formatPolynomialExpression(polynomial.getTerms())
                 + ") + (" + polynomial2.formatPolynomialExpression(polynomial2.getTerms()) + ") = " + result);
 
-        System.out.println("---------------------------------\n(" + polynomial.formatPolynomialExpression(polynomial.getTerms())
-                + ") + (" + polynomial2.formatPolynomialExpression(polynomial2.getTerms()) + ") = " + result2);
+        System.out.println("---------------------------------\n(" + polynomial2.formatPolynomialExpression(polynomial2.getTerms())
+                + ") + (" + polynomial3.formatPolynomialExpression(polynomial3.getTerms()) + ") = " + result2);
 
         System.out.println("---------------------------------\n(" + polynomial.formatPolynomialExpression(polynomial.getTerms())
-                + ") + (" + polynomial2.formatPolynomialExpression(polynomial2.getTerms()) + ") = " + result3);
+                + ") + (" + polynomial3.formatPolynomialExpression(polynomial3.getTerms()) + ") = " + result3);
+
+        System.out.println("---------------------------------\n(" + polynomial3.formatPolynomialExpression(polynomial3.getTerms())
+                + ") + (" + polynomial4.formatPolynomialExpression(polynomial4.getTerms()) + ") = " + result4);
 
         System.out.println("---------------------------------\n(" + polynomial.formatPolynomialExpression(polynomial.getTerms())
-                + ") + (" + polynomial2.formatPolynomialExpression(polynomial2.getTerms()) + ") = " + result4);
-
-        System.out.println("---------------------------------\n(" + polynomial.formatPolynomialExpression(polynomial.getTerms())
-                + ") + (" + polynomial2.formatPolynomialExpression(polynomial2.getTerms()) + ") = " + result5);
+                + ") + (" + polynomial4.formatPolynomialExpression(polynomial4.getTerms()) + ") = " + result5);
     }
 }
 
